@@ -22,6 +22,10 @@ a{
     text-decoration: none;
 }
 
+img{
+    width: 100%;
+}
+
 /* Header */
 header{
     background-color: black;
@@ -42,11 +46,39 @@ header li{
 
 /* Main */
 
+main{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow-y: auto;
+}
 
+.user{
+    position: relative;
+    width: 15%;
+    margin: .2em;
+}
+
+.user img{
+    object-fit: cover;
+}
+
+.user span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
 
 
 /* Footer */
 footer{
+    height: 10vh;
     color: white;
     background-color: #222222;
     display: flex;
