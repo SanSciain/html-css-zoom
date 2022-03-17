@@ -4,3 +4,109 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-size: 80%;
+}
+
+/* Common */
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+header{
+    background-color: black;
+    height: 5vh;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header li{
+    padding: 5px;
+    background-color: #484848;
+    border-radius: 2px;
+    margin-left: 6px;
+}
+
+
+/* Main */
+
+
+
+
+/* Footer */
+footer{
+    color: white;
+    background-color: #222222;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+footer i{
+    font-size: 1.5em;
+}
+
+.icon-with-arrow{
+    display: flex;
+    padding-right: 1em;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-with-arrow .arrow{
+    font-size: .5em;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+}
+
+
+.center{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.center .icon-with-arrow .icon-text i{
+    color: #4bc800;
+}
+
+
+.right{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .button{
+    background-color:#4a4a4a ;
+    color: red;
+    padding: 2em 2em;
+}
+
